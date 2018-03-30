@@ -15,7 +15,7 @@ h1{
   
 .ride{
     font-size:40px;
-    color:red;
+    color:rgba(231, 14, 68, 0.877);
   }
   
 .panel-body{
@@ -23,7 +23,7 @@ h1{
   }
   
 .current ,.add{
-    background-color:red;
+    background-color:rgba(231, 14, 68, 0.877);
     color:black;
     font-size:20px;
     color: white;
@@ -48,6 +48,6 @@ h1{
   }
 
 .btn{
-    background-color:red;
+    background-color:rgba(231, 14, 68, 0.877);
     font-size:20px;
   }
