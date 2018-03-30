@@ -39,8 +39,8 @@ var config = {
     return false;
   });
   
-  //  Created a firebase event listner for adding trains to database and a row in the html when the user adds an entry
-  database.ref().on("child_added", function(childSnapshot) {
+    //  Created a firebase event listner for adding trains to database and a row in the html when the user adds an entry
+    database.ref().on("child_added", function(childSnapshot) {
     console.log(childSnapshot.val());
     
     // Now we store the childSnapshot values into a variable
